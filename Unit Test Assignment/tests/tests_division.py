@@ -1,5 +1,5 @@
 from app.division import divide
-def test_division():
+def tests_division():
 
         result = divide(val1=4, val2=2)
 
