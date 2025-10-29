@@ -1,4 +1,6 @@
-git pfrom flask import Blueprint, render_template
+import flask
+
+from flask import Blueprint, render_template
 
 homepage = Blueprint('homepage', __name__, template_folder='templates')
 
